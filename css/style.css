@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+body { margin:0; padding:0; font-family: 'Roboto', sans-serif;}
+.btn-red { position: relative;left:117px; margin:6px;font-size:14px;background-color:#207244; border-color: #207244; color: #fff; -webkit-transition-duration: 0.4s; transition-duration: 0.4s;}
+.btn-red:hover,.btn-red:focus {background-color:#14b621; border-color: #1d673d; color: #fff; }
+.bouton-image { padding-left: 35px;}
+.bouton-image:before { position: absolute; content: ""; left:10px; top: 7px; width: 18px;height: 18px;display: inline-block;margin-right: 5px;vertical-align: text-top;background-color: transparent;background-position : center center;background-repeat:no-repeat;}
+.monBouton:before{background-image:url(../images/x.png);}
+
+
+.table-scroll th, .table-scroll td  {white-space: nowrap; min-width: 60px;}
+
+::-webkit-scrollbar{width: 9px;height: 8px;}
+
+::-webkit-scrollbar-thumb {background:#d4d4d4; border-radius: 10px;}
+
+
+.table-scroll {
+	position:relative;
+	max-width:1119px;
+	margin:auto;
+	overflow:hidden;
+	border:1px solid #fff;
+}
+.table-wrap {
+    width: 99%;
+    overflow: scroll;
+    height:277px;
+}
+tr:nth-child(even) {background-color: #fffceb;}
+.table-scroll table {
+	width:100%;
+	margin:auto;
+	border-collapse:separate;
+	border-spacing:0;
+}
+.table-scroll th, .table-scroll td {
+	padding:4px 10px;
+	border-bottom: 1px solid #ecedf0;
+	font-size: 14px;
+	white-space:nowrap;
+	vertical-align:top;
+	text-align: center;
+}
+.table-scroll thead, .table-scroll tfoot {
+	background:#f9f9f9;
+}
+.clone {
+	position:absolute;
+	top:0;
+	left:0;
+	pointer-events:none;
+	min-height:250px;
+	height:260px;
+}
+.clone th, .clone td {
+	visibility:hidden
+}
+.clone td, .clone th {
+	border-color:transparent
+}
+.clone tbody th {
+	visibility:visible;
+	color:#333;
+}
+.clone .fixed-side {
+	width:10px;
+	font-size: 14px;
+    font-family: 'roboto',sans-serif;
+	background:#f7f8fa;
+	visibility:visible;
+	text-align: left;
+	font-weight:500;
+}
+.clone .fixed-side-1 {
+	width:10px;
+	font-size: 14px;
+    font-family: 'roboto',sans-serif;
+	background:#f4f5f8;
+	visibility:visible;
+	
+}
+.clone thead, .clone tfoot{background:transparent;
+}
+.cal-bg{
+	background-color:#f4f5f8;
+    color: #333;
+    font-size: 14px;
+    font-family: 'roboto',sans-serif;
+	text-align: center;
+	font-weight:500;
+}
+.red-bg{
+	background-color:#ff647c;
+	color:#fff;
+}
+.purple-bg{
+	background-color:#be52f3;
+	color:#fff;
+}
